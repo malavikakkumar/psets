@@ -1,10 +1,10 @@
-# PSYC 5V46 - Problem Set #1 Answers
+# PSYC 5P02 - Problem Set #1 Answers
 
 **Answer 1**: 
 (a) `ls -rt`,
 where `ls` is the command used to list all the files in the current working directory
 and `-r` is the argument that lists the files in reverse order of whatever sorting method is being used
-and `-t` is the argument that sorts by time (newest first)
+and `-t` is the argument that sorts by modification time (newest first)
 (b) `ls -lrt`, 
 a modification of the above command so that it includes the argument `-l` which lists the files in *long* format, with details about file permissions, owners, size and modification date.
 (c ) 
@@ -30,3 +30,12 @@ copies from source to destination file as specified (with format `cp [source] [d
 4. `mv subj*.txt Data`: moves all files in current working directory with filenames which match the specified format (i.e., all filenames starting with 'subj' and ending with the .txt extension, where `*` is a wildcard character standing in for any string) to the destination directory (here, specified as Data)
 5. `cd Data`: shifts current working directory to Data (one step below)
 `rm subj0*.txt`: removes all files in current working directory with filenames which match the specified format (i.e., all filenames starting with 'subj0' and ending with the .txt extension)
+
+**Answer 4:**
+`ls -dlt */ | tee ClassFileFolders.txt`
+Although there are operators such as `>` and `>>` that redirect standard input into an existing or new file, the utility of `tee` lies in the fact that it can redirect standard input to both standard output and to a specified file.
+Hence, in the above line of code, `ls -dlt */` will list all the subdirectories in the current working directory.
+Here, `-dlt` indicates that only directories need to be listed, in long form and order of last time modified, and `*/` indicates that sub-directors must also be listed.
+`tee ClassFileFolders.txt` stores the output from `ls -dlt */` (since it pipes from the same with the `|` operator) into a new file ClassFileFolders.txt
+
+** Answer 5 **

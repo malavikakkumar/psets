@@ -1,6 +1,6 @@
 # PSYC 5P02 - Problem Set #1 Answers
 
-#### Answer 1
+### Answer 1
  
 (a) `ls -rt`,
 
@@ -15,7 +15,7 @@ a modification of the above command so that it includes the argument `-l` which 
 `-r`: reverse order while sorting
 
 
-#### Answer 2
+### Answer 2
 
 Variants of the `cd` command (used to change directory to one specified by the user) can be used to navigate from the given current working directory (specified here as `/users/yourname/documents/`) to the home directory (specified here as `/users/yourname/`)
 - `cd ~/` which places us in the home directory irrespective of our current working directory
@@ -23,7 +23,7 @@ Variants of the `cd` command (used to change directory to one specified by the u
 - `cd '/users/yourname/'` which places us directly in the specified directory (in this case, the home directory)
 
 
-#### Answer 3
+### Answer 3
 1. `mkdir Data`: creates a directory called Data in the current working directory
 2. `touch subj01.txt`: creates a text file with the given name in the current working directory
 3. `cp subj01.txt subj02.txt` 
@@ -34,7 +34,7 @@ Variants of the `cd` command (used to change directory to one specified by the u
 copies from source to destination file as specified (with format `cp [source] [destination]`)
 4. `mv subj*.txt Data`: moves all files in current working directory with filenames which match the specified format (i.e., all filenames starting with 'subj' and ending with the .txt extension, where `*` is a wildcard character standing in for any string) to the destination directory (here, specified as Data)
 5. `cd Data`: shifts current working directory to Data,
-`rm subj0*.txt`: removes all files in current working directory with filenames which match the specified format (i.e., all filenames starting with 'subj0' and ending with the .txt extension)
+`rm subj0*.txt` removes all files in current working directory with filenames which match the specified format (i.e., all filenames starting with 'subj0' and ending with the .txt extension)
 
 
 #### Answer 4
@@ -50,7 +50,7 @@ Here, `-dlt` indicates that only directories need to be listed, in long form and
 `tee ClassFileFolders.txt` stores the output from `ls -dlt */` (since it pipes from the same with the `|` operator) into a new file ClassFileFolders.txt
 
 
-#### Answer 5
+### Answer 5
 
 Both versions of command history include all the commands used upto the latest run instance of the shell. The files diverge when it comes to which commands from the current running instance were recorded.
 
@@ -58,15 +58,15 @@ When command history is recorded within the screen (as in the file 'command_hist
 
 When command history is recorded outside of the screen (as in the file 'command_history_outScreen.txt'), the up-to-date history includes all the commands that were executed outside the screen, but not within the screen.
 
-#### Answer 6
+### Answer 6
 
 ![A screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!](Intro_to_Github.png)
 
-#### Answer 7
+### Answer 7
 
 ![A screenshot of the terminal displaying all the files in the local version of the synced repo (PSYC-5P02-2025)](Repo_Files_Terminal.png)
 
-#### Answer 8
+### Answer 8
 `history | tail -n 5 > githistory.txt`
 
 Using the `tail` command with a pipe from the `history` command, with its options set to display 5 lines, the output was written into the 'githistory.txt' file.

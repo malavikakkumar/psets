@@ -1,6 +1,0 @@
-  520  git push origin main
-  521  history -d 523
-  522  history -d 521
-  523  history
-  524  history -d -4
-  525  history | tail -n 6 > githistory.txt

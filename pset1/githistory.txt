@@ -1,0 +1,5 @@
+    2  git add .
+    3  git commit -m "Removed old githistory.txt file"
+    4  git status
+    5  git push origin main
+    6  history | tail -n 5 > githistory.txt

@@ -65,3 +65,10 @@ When command history is recorded outside of the screen (as in the file 'command_
 **Answer 7:**
 
 ![A screenshot of the terminal displaying all the files in the local version of the synced repo (PSYC-5P02-2025)](Repo_Files_Terminal.png)
+
+**Answer 8:**
+`history | tail -n 5 > githistory.txt`
+
+Using the `tail` command with a pipe from the `history` command, with its options set to display 5 lines, the output was written into the 'githistory.txt' file.
+
+Had to clear the history during my first attempt because I kept checking the history and adding several commands in between those used for git. I also started committing my files to both the remote and local versions of the git repository pretty early on, so you can see all the commits in my github repository as well.

@@ -1,0 +1,392 @@
+    1  sudo apt update
+    2  sudo apt install git build-essential autotools python3 r-base
+    3  sudo apt-get install git -y
+    4  git
+    5  sudo apt-get install git -y
+    6  ls
+    7  ls -t
+    8  man ls
+    9  clear
+   10  ls
+   11  ls -
+   12  ls -a
+   13  clear
+   14  man ls
+   15  ls -art
+   16  ls -lart
+   17  pwd
+   18  cd cd //
+   19  cd //
+   20  pwd
+   21  cd ~/
+   22  clear
+   23  cd ./
+   24  pwd
+   25  clear
+   26  cd /
+   27  cd ~/
+   28  cd ./
+   29  cd /
+   30  ls
+   31  pwd
+   32  cd ~/
+   33  pwd
+   34  ls
+   35  cd ClassFiles
+   36  ls
+   37  cd replicas
+   38  ls
+   39  rm tmp*.txt
+   40  ls
+   41  vi tmp.txt
+   42  ls
+   43  clear
+   44  ls
+   45  vi tmp.txt
+   46  ls
+   47  cp tmp.txt tmp2.txt
+   48  cp tmp.txt tmp3.txt
+   49  cp tmp.txt tmpNew.txt
+   50  ls
+   51  rm tmp?.txt
+   52  ls
+   53  rm tmp[*].txt
+   54  cd ..
+   55  clear
+   56  pwd
+   57  ls
+   58  ls *.pdb
+   59  wc cubane.pdb
+   60  man wc
+   61  man *.pdb
+   62  clear
+   63  wc *.pdb
+   64  wc LittleWomen.txt
+   65  wc *.pdb > vi lengths.txt
+   66  vi lengths.txt
+   67  wc *.pdb > lengths.txt
+   68  cat lengths.txt
+   69  vi lengths.txt
+   70  ls
+   71  vi vi
+   72  rm vi
+   73  ls
+   74  vi lengths.txt
+   75  less LittleWomen.txt
+   76  cat LittleWomen.txt | less
+   77  sort -n lengths.txt > sorted-lengths.txt
+   78  ls
+   79  cat sorted-lengths.txt
+   80  sort -n lengths.txt >> sorted-lengths.txt
+   81  cat sorted-lengths.txt 
+   82  sort -n lengths.txt | head -n 1
+   83  wc -w *.pdb | sort -n | head -n 1
+   84  man head
+   85  man wc
+   86  clear
+   87  ;s
+   88  clear
+   89  ls
+   90  cat haiku.txt
+   91  grep the haiku.txt
+   92  grep thesis haiku.txt
+   93  grep Thesis haiku.txt
+   94  man grep
+   95  grep -E 'the|is' haiku.txt
+   96  screen
+   97  ls
+   98  ls -l
+   99  sudo chmod 555 haiku.txt
+  100  ls -l
+  101  clear
+  102  cd ~/
+  103  clear
+  104  git config --global user.name "malavikakkumar"
+  105  git config --global user.email "malavikakkumar@gmail.com"
+  106  git config --global --edit
+  107  ls
+  108  ls -a
+  109  notepad .gitconfig
+  110  vi .gitconfig
+  111  git config --global init.defaultBranch main
+  112  cat .gitconfig
+  113  ls
+  114  cp ClassFiles Files1
+  115  ls
+  116  mv ClassFiles Files1
+  117  ls
+  118  cd Files1
+  119  ls
+  120  cd ..
+  121  clear
+  122  mv Files1 ClassFiles
+  123  ls
+  124  cd ClassFiles
+  125  mkdir recipes
+  126  ls
+  127  cd recipes
+  128  git init
+  129  ls -a
+  130  cd .git
+  131  ls
+  132  ls -a
+  133  cd ..
+  134  git status
+  135  touch guacamole.md
+  136  vi guacamole.md
+  137  cat guacamole.md
+  138  git status
+  139  git add guacamole.md
+  140  git status
+  141  git commit -m "Create initial structure for a Guacamole recipe"
+  142  git status
+  143  vi guacamole.md
+  144  git status
+  145  git diff
+  146  git add guacamole.md
+  147  git diff
+  148  git status
+  149  git diff --staged
+  150  git commit -m "Added some ingredients"
+  151  git status
+  152  vi guacamole.md
+  153  git diff
+  154  git add guacamole.md
+  155  git commit -m "Could use more avocadoes
+  156  "
+  157  git log
+  158  git log --oneline
+  159  ls
+  160  mkdir healthy-meals
+  161  ls
+  162  git diff
+  163  cd healthy-meals
+  164  touch beans.md
+  165  ls
+  166  ls -a
+  167  git diff
+  168  cd ..
+  169  git diff
+  170  ls
+  171  cler
+  172  clear
+  173  ls
+  174  git diff
+  175  git add healthy-meals/beans.md 
+  176  git status
+  177  git diff
+  178  git diff --staged
+  179  git commit -m "Added a new healthy beans recipe"
+  180  git log --oneline
+  181  vi guacamole.md
+  182  git diff
+  183  git diff guacamole.md git diff HEAD guacamole.md
+  184  git diff HEAD guacamole.md
+  185  git diff 5cc6674 guacamole.md
+  186  clear
+  187  git add guacamole.md
+  188  git status
+  189  git log
+  190  git commit -m "Added some instructions"
+  191  git restore guacamole.md
+  192  git status
+  193  git log
+  194  git diff
+  195  clear
+  196  ls
+  197  cat guacamole.md
+  198  vi guacamole.md
+  199  git diff HEAD guacamole.md
+  200  git add guacamole.md
+  201  git status
+  202  git restore --staged guacamole.md
+  203  cat guacamole.md
+  204  git status
+  205  git restore guacamole.md
+  206  git diff
+  207  cat guacamole.md
+  208  git log --oneline
+  209  git restore -s 03e2afd guacamole.md
+  210  cat guacamole.md
+  211  git log
+  212  clear
+  213  git log --oneline
+  214  git add guacamole.md
+  215  git commit -m "Reverted some changes"
+  216  git log
+  217  clear
+  218  git log --oneline
+  219  cat guacamole.md
+  220  touch tmp.txt
+  221  git status
+  222  touch .gitignore
+  223  vi .gitignore
+  224  git status
+  225  vi .gitignore
+  226  git status
+  227  ls
+  228  cd ~/
+  229  ls
+  230  ls -a
+  231  ssh-keygen -t ed25519 -C "malavikakkumar@gmail.com"
+  232  ls
+  233  ls -a
+  234  cd .ssh
+  235  ls -a
+  236  cat id_ed25519.pub
+  237  clear
+  238  cd ..
+  239  ls
+  240  cd ClassFiles/recipes
+  241  git remote add origin git@github.com:malavikakkumar/recipes.git
+  242  ls -a
+  243  git push origin main
+  244  cd ~/.ssh
+  245  ls
+  246  cat id_ed25519.pub
+  247  git remote add origin git@github.com:malavikakkumar/recipes.git
+  248  cd ~/
+  249  cd ClassFiles/recipes
+  250  git remote add origin git@github.com:malavikakkumar/recipes.git
+  251  git push origin main
+  252  cd ~/
+  253  cd .ssh
+  254  ls -l
+  255  ls
+  256  cd ClassFiles
+  257  ls
+  258  cd psets
+  259  ls
+  260  vi ProblemSet1.md
+  261  cat ProblemSet1.md
+  262  clear
+  263  ls
+  264  man tee
+  265  cd ..
+  266  ls
+  267  cat cubane.pdb
+  268  clear
+  269  ls
+  270  cat haiku.txt
+  271  cd psets
+  272  ;s
+  273  ls
+  274  clear
+  275  ls
+  276  cd ..
+  277  clear
+  278  ls
+  279  man tee
+  280  cat haiku.txt | tee haikuCopy.txt
+  281  ls
+  282  cat haikuCopy.txt
+  283  vi haikuCopy.txt
+  284  rm Data
+  285  rm haikuCopy.txt
+  286  ls
+  287  ls Data
+  288  rmdir Data
+  289  rm Data/subj11.txt
+  290  rmdir Data
+  291  ls
+  292  clear
+  293  ls
+  294  man tee
+  295  man cat
+  296  cat haiku.txt 3
+  297  man cat
+  298  man tac
+  299  cat "My name is" -
+  300  clear
+  301  ls
+  302  man cat
+  303  vi MyNameIs.txt
+  304  cat MyNameIs -
+  305  cat MyNameIs.txt -
+  306  cat MyNameIs.txt - | tee MyNameIs.txt
+  307  cat MyNameIs.txt
+  308  ls
+  309  man cat
+  310  man tee
+  311  clear
+  312  ls
+  313  vi MyNameIs.txt
+  314  tee MyNameIs.txt
+  315  cat MyNameIs.txt
+  316  tee MyNameIs.txt
+  317  cat MyNameIs.txt
+  318  vi MyNameIs.txt
+  319  cat MyNameIs.txt | tee MyNameIs
+  320  man tee
+  321  cat MyNameIs.txt | tee
+  322  cat MyNameIs.txt - | tee
+  323  cat MyNameIs.txt
+  324  cat MyNameIs.txt - | tee MyNameIs.txt
+  325  cat MyNameIs.txt
+  326  cat MyNameIs.txt - | tee MyNameIs.txt
+  327  cat MyNameIs.txt
+  328  man cat
+  329  vi MyNameIs.txt
+  330  cat - >> MyNameIs.txt
+  331  cat MyNameIs.txt
+  332  vi MyNameIs.txt
+  333  man tee
+  334  ls
+  335  cd ClassFiles
+  336  man tee
+  337  man cat
+  338  ls
+  339  rm MyNameIs
+  340  ls
+  341  vi MyNameIs.txt
+  342  man tee
+  343  cd ~/
+  344  cd ClassFiles
+  345  cd psets
+  346  git init
+  347  ls -a
+  348  git status
+  349  git add ProblemSet1.md
+  350  git status
+  351  git commit
+  352  git commit ProblemSet1.md
+  353  git commit -m "Uploaded file with answers for questions 1 to 3"
+  354  git log
+  355  cd ..
+  356  git clone git@github.com:malavikakkumar/PSYC-5P02-2025.git
+  357  ls -a
+  358  cd PSYC-5P02-2025
+  359  ls
+  360  cd Slides
+  361  ls
+  362  cd ..
+  363  cat README.md
+  364  clear
+  365  ls -a
+  366  git remote -v
+  367  cd ../
+  368  git remote -v
+  369  clear
+  370  ls
+  371  cd PSYC-5P02-2025/
+  372  git remote -v
+  373  git remote add upstream https://github.com/SMEmrich/PSYC-5P02-2025.git
+  374  git remote -v
+  375  git fetch upstream
+  376  git checkout main
+  377  git merge upstream/main
+  378  cd ~/
+  379  cd ClassFiles/psets
+  380  ls
+  381  vi ProblemSet1.md
+  382  cd ..
+  383  man history
+  384  history
+  385  screen
+  386  sudo apt install screen
+  387  screen
+  388  screen -ls
+  389  screen -r
+  390  screen -ls
+  391  ls
+  392  history > command_history_outScreen.txt

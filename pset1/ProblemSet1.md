@@ -60,4 +60,8 @@ When command history is recorded outside of the screen (as in the file 'command_
 
 **Answer 6:**
 
-![This is a screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!] (IntrotoGithub.png)
+![A screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!](Intro_to_Github.png)
+
+**Answer 7:**
+
+![A screenshot of the terminal displaying all the files in the local version of the synced repo (PSYC-5P02-2025)](Repo_Files_Terminal.png)

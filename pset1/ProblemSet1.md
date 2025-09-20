@@ -51,3 +51,13 @@ Here, `-dlt` indicates that only directories need to be listed, in long form and
 
 
 **Answer 5:**
+
+Both versions of command history include all the commands used upto the latest run instance of the shell. The files diverge when it comes to which commands from the current running instance were recorded.
+
+When command history is recorded within the screen (as in the file 'command_history_inScreen.txt'), the up-to-date history includes all the commands that were executed within the screen, but not outside of the screen.
+
+When command history is recorded outside of the screen (as in the file 'command_history_outScreen.txt'), the up-to-date history includes all the commands that were executed outside the screen, but not within the screen.
+
+**Answer 6:**
+
+![This is a screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!] (IntrotoGithub.png)

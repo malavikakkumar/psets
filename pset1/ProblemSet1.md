@@ -60,4 +60,4 @@ When command history is recorded outside of the screen (as in the file 'command_
 
 **Answer 6:**
 
-![This is a screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!] (pset1/IntrotoGithub.png)
+![This is a screenshot of the message received upon successful completion of the *Introduction to Github* tutorial. I feel pretty equipped to use Github better now!] (IntrotoGithub.png)

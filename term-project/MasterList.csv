@@ -1,0 +1,428 @@
+﻿Type,Condition,Item,Sentence,CompQ,CompQAns,Error Type,Edits
+Expt,POToPlaus,101,The sister mailed the letter to the niece.,Did the niece receive something? ,Yes,Deletion,0
+Expt,POToPlaus,102,The mother gave the candle to the daughter.,Did the daughter receive something? ,Yes,Deletion,0
+Expt,POToPlaus,103,The uncle sold the truck to the father.,Did the father receive something? ,Yes,Deletion,0
+Expt,POToPlaus,104,The contractor lent the saw to the homeowner.,Did the homeowner receive something? ,Yes,Deletion,0
+Expt,POToPlaus,105,The sailing club leased the boat to the man.,Did the man receive something?,Yes,Deletion,0
+Expt,POToPlaus,106,The girl tossed the apple to the boy.,Did the apple receive someone? ,No,Deletion,0
+Expt,POToPlaus,107,The daughter passed the bowl to the mother.,Did the bowl receive someone? ,No,Deletion,0
+Expt,POToPlaus,108,The scuba instructor rented the equipment to the tourist.,Did the equipment receive someone? ,No,Deletion,0
+Expt,POToPlaus,109,The boy handed the pencil to the girl.,Did the pencil receive someone? ,No,Deletion,0
+Expt,POToPlaus,110,The nanny threw the toy to the child.,Did the toy receive someone? ,No,Deletion,0
+Expt,POToPlaus,111,The nephew mailed the postcard to the aunt.,Did the postcard receive someone? ,No,Deletion,0
+Expt,POToPlaus,112,The father gave the car to the son.,Did the car receive someone? ,No,Deletion,0
+Expt,POToPlaus,113,The shop sold the bike to the student.,Did the bike receive someone? ,No,Deletion,0
+Expt,POToPlaus,114,The janitor lent the mop to the teacher.,Did the mop receive someone? ,No,Deletion,0
+Expt,POToPlaus,115,The car dealer leased the SUV to the plumber.,Did the SUV receive someone? ,No,Deletion,0
+Expt,POToPlaus,116,The host tossed the microphone to the contestant.,Did the contestant receive something? ,Yes,Deletion,0
+Expt,POToPlaus,117,The quarterback passed the ball to the receiver.,Did the receiver receive something? ,Yes,Deletion,0
+Expt,POToPlaus,118,The videostore rented the DVD to the customer.,Did the customer receive something? ,Yes,Deletion,0
+Expt,POToPlaus,119,The bartender handed the drink to the lady.,Did the lady receive something? ,Yes,Deletion,0
+Expt,POToPlaus,120,The magician threw the hat to the assistant.,Did the assistant receive something? ,Yes,Deletion,0
+Expt,DOToPlaus,121,The sister mailed the niece the letter.,Did the niece receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,122,The mother gave the daughter the candle.,Did the daughter receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,123,The uncle sold the father the truck.,Did the father receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,124,The contractor lent the homeowner the saw.,Did the homeowner receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,125,The sailing club leased the man the boat.,Did the man receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,126,The girl tossed the boy the apple.,"Did the apple receive someone?
+",No,Insertion,0
+Expt,DOToPlaus,127,The daughter passed the mother the bowl.,Did the bowl receive someone? ,No,Insertion,0
+Expt,DOToPlaus,128,The scuba instructor rented the tourist the equipment.,Did the equipment receive someone? ,No,Insertion,0
+Expt,DOToPlaus,129,The boy handed the girl the pencil.,Did the pencil receive someone? ,No,Insertion,0
+Expt,DOToPlaus,130,The nanny threw the child the toy.,Did the toy receive someone? ,No,Insertion,0
+Expt,DOToPlaus,131,The nephew mailed the aunt the postcard.,Did the postcard receive someone? ,No,Insertion,0
+Expt,DOToPlaus,132,The father gave the son the car.,Did the car receive someone? ,No,Insertion,0
+Expt,DOToPlaus,133,The shop sold the student the bike.,Did the bike receive someone? ,No,Insertion,0
+Expt,DOToPlaus,134,The janitor lent the teacher the mop.,Did the mop receive someone? ,No,Insertion,0
+Expt,DOToPlaus,135,The car dealer leased the plumber the SUV.,Did the SUV receive someone? ,No,Insertion,0
+Expt,DOToPlaus,136,The host tossed the contestant the microphone.,Did the contestant receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,137,The quarterback passed the receiver the ball.,Did the receiver receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,138,The videostore rented the customer the DVD.,Did the customer receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,139,The bartender handed the lady the drink.,Did the lady receive something? ,Yes,Insertion,0
+Expt,DOToPlaus,140,The magician threw the assistant the hat.,Did the assistant receive something? ,Yes,Insertion,0
+Expt,DOToImplaus,201,The sister mailed the letter the niece.,Did the niece receive something? ,No,Deletion,1
+Expt,DOToImplaus,202,The mother gave the candle the daughter.,"Did the daughter receive something? 
+",No,Deletion,1
+Expt,DOToImplaus,203,The uncle sold the truck the father.,Did the father receive something? ,No,Deletion,1
+Expt,DOToImplaus,204,The contractor lent the saw the homeowner.,Did the homeowner receive something? ,No,Deletion,1
+Expt,DOToImplaus,205,The sailing club leased the boat the man.,Did the man receive something? ,No,Deletion,1
+Expt,DOToImplaus,206,The girl tossed the apple the boy.,Did the apple receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,207,The daughter passed the bowl the mother.,Did the bowl receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,208,The scuba instructor rented the equipment the tourist.,"Did the equipment receive someone? 
+",Yes,Deletion,1
+Expt,DOToImplaus,209,The boy handed the pencil the girl.,Did the pencil receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,210,The nanny threw the toy the child.,Did the toy receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,211,The nephew mailed the postcard the aunt.,Did the postcard receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,212,The father gave the car the son.,Did the car receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,213,The shop sold the bike the student.,Did the bike receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,214,The janitor lent the mop the teacher.,Did the mop receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,215,The car dealer leased the SUV the plumber.,Did the SUV receive someone? ,Yes,Deletion,1
+Expt,DOToImplaus,216,The host tossed the microphone the contestant.,Did the contestant receive something? ,No,Deletion,1
+Expt,DOToImplaus,217,The quarterback passed the ball the receiver.,Did the receiver receive something? ,No,Deletion,1
+Expt,DOToImplaus,218,The videostore rented the DVD the customer.,Did the customer receive something? ,No,Deletion,1
+Expt,DOToImplaus,219,The bartender handed the drink the lady.,Did the lady receive something? ,No,Deletion,1
+Expt,DOToImplaus,220,The magician threw the hat the assistant.,Did the assistant receive something? ,No,Deletion,1
+Expt,POToImplaus,221,The sister mailed the niece to the letter.,Did the niece receive something? ,No,Insertion,1
+Expt,POToImplaus,222,The mother gave the daughter to the candle.,Did the daughter receive something? ,No,Insertion,1
+Expt,POToImplaus,223,The uncle sold the father to the truck.,Did the father receive something? ,No,Insertion,1
+Expt,POToImplaus,224,The contractor lent the homeowner to the saw.,Did the homeowner receive something? ,No,Insertion,1
+Expt,POToImplaus,225,The sailing club leased the man to the boat.,Did the man receive something? ,No,Insertion,1
+Expt,POToImplaus,226,The girl tossed the boy to the apple.,Did the apple receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,227,The daughter passed the mother to the bowl.,Did the bowl receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,228,The scuba instructor rented the tourist to the equipment.,Did the equipment receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,229,The boy handed the girl to the pencil.,Did the pencil receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,230,The nanny threw the child to the toy.,Did the toy receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,231,The nephew mailed the aunt to the postcard.,Did the postcard receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,232,The father gave the son to the car.,Did the car receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,233,The shop sold the student to the bike.,Did the bike receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,234,The janitor lent the teacher to the mop.,Did the mop receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,235,The car dealer leased the plumber to the SUV.,Did the SUV receive someone? ,Yes,Insertion,1
+Expt,POToImplaus,236,The host tossed the contestant to the microphone.,Did the contestant receive something? ,No,Insertion,1
+Expt,POToImplaus,237,The quarterback passed the receiver to the ball.,Did the receiver receive something? ,No,Insertion,1
+Expt,POToImplaus,238,The videostore rented the customer to the DVD.,Did the customer receive something? ,No,Insertion,1
+Expt,POToImplaus,239,The bartender handed the lady to the drink.,Did the lady receive something? ,No,Insertion,1
+Expt,POToImplaus,240,The magician threw the assistant to the hat.,Did the assistant receive something? ,No,Insertion,1
+Expt,POForPlaus,301,The cook baked a cake for Lucy.,Was something baked for Lucy? ,Yes,Deletion,0
+Expt,POForPlaus,302,The bartender poured a drink for the customer.,Was something poured for the customer? ,Yes,Deletion,0
+Expt,POForPlaus,303,The woman saved a seat for her husband.,Was something saved for the husband? ,Yes,Deletion,0
+Expt,POForPlaus,304,The grandmother made a quilt for her granddaughter.,Was something made for the granddaughter? ,Yes,Deletion,0
+Expt,POForPlaus,305,The apprentice fetched a hammer for the carpenter.,Was something fetched for the carpenter? ,Yes,Deletion,0
+Expt,POForPlaus,306,The secretary ordered some office supplies for the boss.,Was something ordered for the boss? ,Yes,Deletion,0
+Expt,POForPlaus,307,The wife reserved a table for her husband.,Was something reserved for the husband? ,Yes,Deletion,0
+Expt,POForPlaus,308,The father bought a bicycle for his son.,Was something bought for the son? ,Yes,Deletion,0
+Expt,POForPlaus,309,The charity built a house for the hurricane victim.,Was something built for the hurricane victim? ,Yes,Deletion,0
+Expt,POForPlaus,310,The waitress fixed a sandwich for the customer.,Was something fixed for the customer? ,Yes,Deletion,0
+Expt,POForPlaus,311,The grandmother baked some cookies for the grandson.,Was something baked for the cookies? ,No,Deletion,0
+Expt,POForPlaus,312,The nurse poured some water for the old man.,Was something poured for the water? ,No,Deletion,0
+Expt,POForPlaus,313,The receptionist saved some cake for her co-worker.,Was something saved for the cake? ,No,Deletion,0
+Expt,POForPlaus,314,The seamstress made a dress for her client.,Was something made for the dress? ,No,Deletion,0
+Expt,POForPlaus,315,The lab-assistant fetched a test-tube for the scientist.,Was something fetched for the test-tube? ,No,Deletion,0
+Expt,POForPlaus,316,The man ordered some champagne for his girlfriend.,Was something ordered for the champagne? ,No,Deletion,0
+Expt,POForPlaus,317,The travel agent reserved a flight for the businessman.,Was something reserved for the flight? ,No,Deletion,0
+Expt,POForPlaus,318,The boyfriend obtained some concert tickets for his girlfriend.,Was something obtained for the concert tickets? ,No,Deletion,0
+Expt,POForPlaus,319,The church built a shelter for the homeless.,Was something built for the shelter? ,No,Deletion,0
+Expt,POForPlaus,320,The babysitter fixed some lunch for the child.,Was something fixed for the lunch? ,No,Deletion,0
+Expt,DOForPlaus,321,The cook baked Lucy a cake.,Was something baked for Lucy? ,Yes,Insertion,0
+Expt,DOForPlaus,322,The bartender poured the customer a drink.,Was something poured for the customer? ,Yes,Insertion,0
+Expt,DOForPlaus,323,The woman saved her husband a seat.,Was something saved for the husband? ,Yes,Insertion,0
+Expt,DOForPlaus,324,The grandmother made her granddaughter a quilt.,Was something made for the granddaughter? ,Yes,Insertion,0
+Expt,DOForPlaus,325,The apprentice fetched the carpenter a hammer.,Was something fetched for the carpenter? ,Yes,Insertion,0
+Expt,DOForPlaus,326,The secretary ordered the boss some office supplies.,Was something ordered for the boss? ,Yes,Insertion,0
+Expt,DOForPlaus,327,The wife reserved her husband a table.,Was something reserved for the husband? ,Yes,Insertion,0
+Expt,DOForPlaus,328,The father bought his son a bicycle.,Was something bought for the son? ,Yes,Insertion,0
+Expt,DOForPlaus,329,The charity built the hurricane victim a house.,Was something built for the hurricane victim? ,Yes,Insertion,0
+Expt,DOForPlaus,330,The waitress fixed the customer a sandwich.,Was something fixed for the customer? ,Yes,Insertion,0
+Expt,DOForPlaus,331,The grandmother baked the grandson some cookies.,Was something baked for the cookies? ,No,Insertion,0
+Expt,DOForPlaus,332,The nurse poured the old man some water.,Was something poured for the water? ,No,Insertion,0
+Expt,DOForPlaus,333,The receptionist saved her co-worker some cake.,Was something saved for the cake? ,No,Insertion,0
+Expt,DOForPlaus,334,The seamstress made her client a dress.,Was something made for the dress? ,No,Insertion,0
+Expt,DOForPlaus,335,The lab-assistant fetched the scientist a test-tube.,Was something fetched for the test-tube? ,No,Insertion,0
+Expt,DOForPlaus,336,The man ordered his girlfriend some champagne.,Was something ordered for the champagne? ,No,Insertion,0
+Expt,DOForPlaus,337,The travel agent reserved the businessman a flight.,Was something reserved for the flight? ,No,Insertion,0
+Expt,DOForPlaus,338,The boyfriend obtained his girlfriend some concert tickets., Was something obtained for the concert tickets? ,No,Insertion,0
+Expt,DOForPlaus,339,The church built the homeless a shelter.,Was something built for the shelter? ,No,Insertion,0
+Expt,DOForPlaus,340,The babysitter fixed the child some lunch.,Was something fixed for the lunch? ,No,Insertion,0
+Expt,DOForImplaus,401,The cook baked a cake Lucy.,Was something baked for Lucy? ,No,Deletion,1
+Expt,DOForImplaus,402,The bartender poured a drink the customer.,Was something poured for the customer? ,No,Deletion,1
+Expt,DOForImplaus,403,The woman saved a seat her husband.,Was something saved for the husband? ,No,Deletion,1
+Expt,DOForImplaus,404,The grandmother made a quilt her granddaughter.,Was something made for the granddaughter? ,No,Deletion,1
+Expt,DOForImplaus,405,The apprentice fetched a hammer the carpenter.,Was something fetched for the carpenter? ,No,Deletion,1
+Expt,DOForImplaus,406,The secretary ordered some office supplies the boss.,Was something ordered for the boss? ,No,Deletion,1
+Expt,DOForImplaus,407,The wife reserved a table her husband.,Was something reserved for the husband? ,No,Deletion,1
+Expt,DOForImplaus,408,The father bought a bicycle his son.,Was something bought for the son? ,No,Deletion,1
+Expt,DOForImplaus,409,The charity built a house the hurricane victim.,Was something built for the hurricane victim? ,No,Deletion,1
+Expt,DOForImplaus,410,The waitress fixed a sandwich the customer.,Was something fixed for the customer? ,No,Deletion,1
+Expt,DOForImplaus,411,The grandmother baked some cookies the grandson.,Was something baked for the cookies? ,Yes,Deletion,1
+Expt,DOForImplaus,412,The nurse poured some water the old man.,Was something poured for the water? ,Yes,Deletion,1
+Expt,DOForImplaus,413,The receptionist saved some cake her co-worker.,Was something saved for the cake? ,Yes,Deletion,1
+Expt,DOForImplaus,414,The seamstress made a dress her client.,Was something made for the dress? ,Yes,Deletion,1
+Expt,DOForImplaus,415,The lab-assistant fetched a test-tube the scientist.,Was something fetched for the test-tube? ,Yes,Deletion,1
+Expt,DOForImplaus,416,The man ordered some champagne his girlfriend.,Was something ordered for the champagne? ,Yes,Deletion,1
+Expt,DOForImplaus,417,The travel agent reserved a flight the businessman.,Was something reserved for the flight? ,Yes,Deletion,1
+Expt,DOForImplaus,418,The boyfriend obtained some concert tickets his girlfriend.,Was something obtained for the concert tickets? ,Yes,Deletion,1
+Expt,DOForImplaus,419,The church built a shelter the homeless.,Was something built for the shelter? ,Yes,Deletion,1
+Expt,DOForImplaus,420,The babysitter fixed some lunch the child.,Was something fixed for the lunch? ,Yes,Deletion,1
+Expt,POForImplaus,421,The cook baked Lucy for a cake.,Was something baked for Lucy? ,No,Insertion,1
+Expt,POForImplaus,422,The bartender poured the customer for a drink.,Was something poured for the customer? ,No,Insertion,1
+Expt,POForImplaus,423,The woman saved her husband for a seat.,Was something saved for the husband? ,No,Insertion,1
+Expt,POForImplaus,424,The grandmother made her granddaughter for a quilt.,Was something made for the granddaughter? ,No,Insertion,1
+Expt,POForImplaus,425,The apprentice fetched the carpenter for a hammer.,Was something fetched for the carpenter? ,No,Insertion,1
+Expt,POForImplaus,426,The secretary ordered the boss for some office supplies.,Was something ordered for the boss? ,No,Insertion,1
+Expt,POForImplaus,427,The wife reserved her husband for a table.,Was something reserved for the husband? ,No,Insertion,1
+Expt,POForImplaus,428,The father bought his son for a bicycle.,Was something bought for the son? ,No,Insertion,1
+Expt,POForImplaus,429,The charity built the hurricane victim for a house.,Was something built for the hurricane victim? ,No,Insertion,1
+Expt,POForImplaus,430,The waitress fixed the customer for a sandwich.,Was something fixed for the customer? ,No,Insertion,1
+Expt,POForImplaus,431,The grandmother baked the grandson for some cookies.,Was something baked for the cookies? ,Yes,Insertion,1
+Expt,POForImplaus,432,The nurse poured the old man for some water.,Was something poured for the water? ,Yes,Insertion,1
+Expt,POForImplaus,433,The receptionist saved her co-worker for some cake.,Was something saved for the cake? ,Yes,Insertion,1
+Expt,POForImplaus,434,The seamstress made her client for a dress.,"Was something made for the dress? 
+",Yes,Insertion,1
+Expt,POForImplaus,435,The lab-assistant fetched the scientist for a test-tube.,Was something fetched for the test-tube? ,Yes,Insertion,1
+Expt,POForImplaus,436,The man ordered his girlfriend for some champagne.,Was something ordered for the champagne? ,Yes,Insertion,1
+Expt,POForImplaus,437,The travel agent reserved the businessman for a flight.,Was something reserved for the flight? ,Yes,Insertion,1
+Expt,POForImplaus,438,The boyfriend obtained his girlfriend for some concert tickets.,Was something obtained for the concert tickets? ,Yes,Insertion,1
+Expt,POForImplaus,439,The church built the homeless for a shelter.,Was something built for the shelter? ,Yes,Insertion,1
+Expt,POForImplaus,440,The babysitter fixed the child for some lunch.,Was something fixed for the lunch? ,Yes,Insertion,1
+Expt,ObjPlaus,501,A magnificent diamond sparkled on the prince's finger.,Was there a diamond on the prince's finger? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,502,A flowering plant is on the window sill.,Is there a plant on the window sill? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,503,An old woman lives in the woods.,Does a woman live in the woods? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,504,A cat jumped onto the table.,Was there a cat on the table? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,505,A choir sang in the church.,Did a choir sing inside the church? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,506,An old man wandered into a bathroom.,Did an old man go into a bathroom? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,507,The baby crawled into the hallway.,Did the baby go into the hallway? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,508,The marathoner ran into the stadium.,Did the marathoner go into the stadium? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,509,The boy walked into the metal detector.,Did the boy go into the metal detector? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,510,The painting hung on the bedroom wall.,Was the painting hanging on the wall? ,Yes,Deletion+Insertion,0
+Expt,ObjPlaus,511,The helicopter hovered over the water.,Did the water hover over the helicopter? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,512,The small plant grew into a huge tree.,Did the huge tree grow into the small plant? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,513,A ghost appeared above the bed.,Did the bed appear above a ghost? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,514,The train arrived at the station.,Did the station arrive at the train? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,515,Some treasure was found in the cave.,Was the cave found inside the treasure? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,516,The name was engraved on the ring.,Was the ring engraved on the name? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,517,The mobile was hanging from the ceiling.,Was the ceiling hanging from the mobile? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,518,The apple was placed on the teacher's desk.,Was the teacher's desk put on the apple? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,519,The defendant's name was written on the check.,Was the check written on the defendant's name? ,No,Deletion+Insertion,0
+Expt,ObjPlaus,520,The moose's head was mounted on the wall.,Was the wall mounted on the moose's head? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,521,On the prince's finger sparkled a magnificent diamond.,Was there a diamond on the prince's finger? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,522,On the window sill is a flowering plant.,Is there a plant on the window sill? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,523,In the woods lives an old woman.,Does a woman live in the woods? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,524,Onto the table jumped a cat.,Was there a cat on the table? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,525,In the church sang a choir.,Did a choir sing inside the church? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,526,Into a bathroom wandered an old man.,Did an old man go into a bathroom? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,527,Into the hallway crawled the baby.,Did the baby go into the hallway? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,528,Into the stadium ran the marathoner.,Did the marathoner go into the stadium? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,529,Into the metal detector walked the boy.,Did the boy go into the metal detector? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,530,On the bedroom wall hung the painting.,Was the painting hanging on the wall? ,Yes,Deletion+Insertion,0
+Expt,SubjPlaus,531,Over the water hovered the helicopter.,Did the water hover over the helicopter? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,532,Into a huge tree grew the small plant.,Did the huge tree grow into the small plant? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,533,Above the bed appeared a ghost.,Did the bed appear above a ghost? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,534,At the station arrived the train.,Did the station arrive at the train? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,535,In the cave was found some treasure.,Was the cave found inside the treasure? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,536,On the ring was engraved the name.,Was the ring engraved on the name? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,537,From the ceiling was hanging the mobile.,Was the ceiling hanging from the mobile? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,538,On the teacher's desk was placed the apple.,Was the teacher's desk put on the apple? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,539,On the check was written the defendant's name.,Was the check written on the defendant's name? ,No,Deletion+Insertion,0
+Expt,SubjPlaus,540,On the wall was mounted the moose's head.,Was the wall mounted on the moose's head? ,No,Deletion+Insertion,0
+Expt,SubjImplaus,601,On a magnificent diamond sparkled the prince's finger.,Was there a diamond on the prince's finger? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,602,On a flowering plant is the window sill.,Is there a plant on the window sill? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,603,In an old woman lives the woods.,Does a woman live in the woods? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,604,Onto a cat jumped the table.,Was there a cat on the table? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,605,In a choir sang the church.,Did a choir sing inside the church? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,606,Into an old man wandered a bathroom.,Did an old man go into a bathroom? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,607,Into the baby crawled the hallway.,Did the baby go into the hallway? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,608,Into the marathoner ran the stadium.,Did the marathoner go into the stadium? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,609,Into the boy walked the metal detector.,Did the boy go into the metal detector? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,610,On the painting hung the bedroom wall.,Was the painting hanging on the wall? ,No,Deletion+Insertion,2
+Expt,SubjImplaus,611,Over the helicopter hovered the water.,Did the water hover over the helicopter? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,612,Into the small plant grew a huge tree.,Did the huge tree grow into the small plant? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,613,Above a ghost appeared the bed.,Did the bed appear above a ghost? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,614,At the train arrived the station.,Did the station arrive at the train? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,615,In some treasure was found the cave.,Was the cave found inside the treasure? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,616,On the name was engraved the ring.,Was the ring engraved on the name? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,617,From the mobile was hanging the ceiling.,Was the ceiling hanging from the mobile? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,618,On the apple was placed the teacher's desk.,Was the teacher's desk put on the apple? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,619,On the defendant's name was written the check.,Was the check written on the defendant's name? ,Yes,Deletion+Insertion,2
+Expt,SubjImplaus,620,On the moose's head was mounted the wall.,Was the wall mounted on the moose's head? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,621,The prince's finger sparkled on a magnificent diamond.,Was there a diamond on the prince's finger? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,622,The window sill is on a flowering plant.,Is there a plant on the window sill? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,623,The woods lives in an old woman.,Does a woman live in the woods? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,624,The table jumped onto a cat.,Was there a cat on the table? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,625,The church sang in a choir.,Did a choir sing inside the church? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,626,A bathroom wandered into an old man.,Did an old man go into a bathroom? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,627,The hallway crawled into the baby.,Did the baby go into the hallway? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,628,The stadium ran into the marathoner.,Did the marathoner go into the stadium? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,629,The metal detector walked into the boy.,Did the boy go into the metal detector? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,630,The bedroom wall hung on the painting.,Was the painting hanging on the wall? ,No,Deletion+Insertion,2
+Expt,ObjImplaus,631,The water hovered over the helicopter.,Did the water hover over the helicopter? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,632,A huge tree grew into the small plant.,Did the huge tree grow into the small plant? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,633,The bed appeared above a ghost.,Did the bed appear above a ghost? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,634,The station arrived at the train.,Did the station arrive at the train? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,635,The cave was found in some treasure.,Was the cave found inside the treasure? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,636,The ring was engraved on the name.,Was the ring engraved on the name? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,637,The ceiling was hanging from the mobile.,Was the ceiling hanging from the mobile? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,638,The teacher's desk was placed on the apple.,Was the teacher's desk put on the apple? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,639,The check was written on the defendant's name.,Was the check written on the defendant's name? ,Yes,Deletion+Insertion,2
+Expt,ObjImplaus,640,The wall was mounted on the moose's head.,Was the wall mounted on the moose's head? ,Yes,Deletion+Insertion,2
+Expt,PassivePlaus,701,The ball was kicked by the girl.,Did the girl kick something? ,Yes,Deletion,0
+Expt,PassivePlaus,702,The watch was bought by the plumber.,Did the plumber buy something? ,Yes,Deletion,0
+Expt,PassivePlaus,703,The truck was driven by the man.,Did the man drive something? ,Yes,Deletion,0
+Expt,PassivePlaus,704,The stamp was licked by the secretary.,Did the secretary lick something? ,Yes,Deletion,0
+Expt,PassivePlaus,705,The table was set by the mother.,Did the mother set something? ,Yes,Deletion,0
+Expt,PassivePlaus,706,The blanket was folded by the daughter.,Did the blanket fold someone? ,No,Deletion,0
+Expt,PassivePlaus,707,The saw was sharpened by the father.,Did the saw sharpen someone? ,No,Deletion,0
+Expt,PassivePlaus,708,The door was opened by the niece.,Did the door open someone? ,No,Deletion,0
+Expt,PassivePlaus,709,The pizza was eaten by the boy.,Did the pizza eat someone? ,No,Deletion,0
+Expt,PassivePlaus,710,The bowl was broken by the grandfather.,Did the bowl break someone? ,No,Deletion,0
+Expt,PassivePlaus,711,The diamond was lost by the woman.,Did the diamond lose someone? ,No,Deletion,0
+Expt,PassivePlaus,712,The oven was cleaned by the grandmother.,Did the oven clean someone? ,No,Deletion,0
+Expt,PassivePlaus,713,The hammer was stolen by the electrician.,Did the hammer steal someone? ,No,Deletion,0
+Expt,PassivePlaus,714,The window was closed by the sister.,Did the window close someone? ,No,Deletion,0
+Expt,PassivePlaus,715,The water was sipped by the grandson.,Did the water sip someone? ,No,Deletion,0
+Expt,PassivePlaus,716,The train was boarded by the granddaughter.,Did the granddaughter board something? ,Yes,Deletion,0
+Expt,PassivePlaus,717,The book was purchased by the aunt.,Did the aunt purchase something? ,Yes,Deletion,0
+Expt,PassivePlaus,718,The boat was sailed by the uncle.,Did the uncle sail something? ,Yes,Deletion,0
+Expt,PassivePlaus,719,The candle was lit by the wife.,Did the wife light something? ,Yes,Deletion,0
+Expt,PassivePlaus,720,The letter was written by the husband.,Did the husband write something? ,Yes,Deletion,0
+Expt,ActivePlaus,721,The girl kicked the ball.,Did the girl kick something? ,Yes,Insertion,0
+Expt,ActivePlaus,722,The plumber bought the watch.,Did the plumber buy something? ,Yes,Insertion,0
+Expt,ActivePlaus,723,The man drove the truck.,Did the man drive something? ,Yes,Insertion,0
+Expt,ActivePlaus,724,The secretary licked the stamp.,Did the secretary lick something? ,Yes,Insertion,0
+Expt,ActivePlaus,725,The mother set the table.,Did the mother set something? ,Yes,Insertion,0
+Expt,ActivePlaus,726,The daughter folded the blanket.,Did the blanket fold someone? ,No,Insertion,0
+Expt,ActivePlaus,727,The father sharpened the saw.,"Did the saw sharpen someone? 
+",No,Insertion,0
+Expt,ActivePlaus,728,The niece opened the door.,Did the door open someone? ,No,Insertion,0
+Expt,ActivePlaus,729,The boy ate the pizza.,Did the pizza eat someone? ,No,Insertion,0
+Expt,ActivePlaus,730,The grandfather broke the bowl.,Did the bowl break someone? ,No,Insertion,0
+Expt,ActivePlaus,731,The woman lost the diamond.,Did the diamond lose someone? ,No,Insertion,0
+Expt,ActivePlaus,732,The grandmother cleaned the oven.,Did the oven clean someone? ,No,Insertion,0
+Expt,ActivePlaus,733,The electrician stole the hammer.,Did the hammer steal someone? ,No,Insertion,0
+Expt,ActivePlaus,734,The sister closed the window.,Did the window close someone? ,No,Insertion,0
+Expt,ActivePlaus,735,The grandson sipped the water.,"Did the water sip someone? 
+",No,Insertion,0
+Expt,ActivePlaus,736,The granddaughter boarded the train.,Did the granddaughter board something? ,Yes,Insertion,0
+Expt,ActivePlaus,737,The aunt purchased the book.,Did the aunt purchase something? ,Yes,Insertion,0
+Expt,ActivePlaus,738,The uncle sailed the boat.,Did the uncle sail something? ,Yes,Insertion,0
+Expt,ActivePlaus,739,The wife lit the candle.,Did the wife light something? ,Yes,Insertion,0
+Expt,ActivePlaus,740,The husband wrote the letter.,Did the husband write something? ,Yes,Insertion,0
+Expt,ActiveImplaus,801,The ball kicked the girl.,Did the girl kick something? ,No,Deletion,2
+Expt,ActiveImplaus,802,The watch bought the plumber.,Did the plumber buy something? ,No,Deletion,2
+Expt,ActiveImplaus,803,The truck drove the man.,Did the man drive something? ,No,Deletion,2
+Expt,ActiveImplaus,804,The stamp licked the secretary.,Did the secretary lick something? ,No,Deletion,2
+Expt,ActiveImplaus,805,The table set the mother.,Did the mother set something? ,No,Deletion,2
+Expt,ActiveImplaus,806,The blanket folded the daughter.,Did the blanket fold someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,807,The saw sharpened the father.,Did the saw sharpen someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,808,The door opened the niece.,Did the door open someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,809,The pizza ate the boy.,Did the pizza eat someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,810,The bowl broke the grandfather.,Did the bowl break someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,811,The diamond lost the woman.,Did the diamond lose someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,812,The oven cleaned the grandmother.,Did the oven clean someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,813,The hammer stole the electrician.,Did the hammer steal someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,814,The window closed the sister.,Did the window close someone? ,Yes,Deletion,2
+Expt,ActiveImplaus,815,The water sipped the grandson.,"Did the water sip someone? 
+",Yes,Deletion,2
+Expt,ActiveImplaus,816,The train boarded the granddaughter.,Did the granddaughter board something? ,No,Deletion,2
+Expt,ActiveImplaus,817,The book purchased the aunt.,Did the aunt purchase something? ,No,Deletion,2
+Expt,ActiveImplaus,818,The boat sailed the uncle.,"Did the uncle sail something? 
+",No,Deletion,2
+Expt,ActiveImplaus,819,The candle lit the wife.,"Did the wife light something? 
+",No,Deletion,2
+Expt,ActiveImplaus,820,The letter wrote the husband.,"Did the husband write something? 
+",No,Deletion,2
+Expt,PassiveImplaus,821,The girl was kicked by the ball.,Did the girl kick something? ,No,Insertion,2
+Expt,PassiveImplaus,822,The plumber was bought by the watch.,Did the plumber buy something? ,No,Insertion,2
+Expt,PassiveImplaus,823,The man was driven by the truck.,Did the man drive something? ,No,Insertion,2
+Expt,PassiveImplaus,824,The secretary was licked by the stamp.,Did the secretary lick something? ,No,Insertion,2
+Expt,PassiveImplaus,825,The mother was set by the table.,Did the mother set something? ,No,Insertion,2
+Expt,PassiveImplaus,826,The daughter was folded by the blanket.,Did the blanket fold someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,827,The father was sharpened by the saw.,Did the saw sharpen someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,828,The niece was opened by the door.,Did the door open someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,829,The boy was eaten by the pizza.,Did the pizza eat someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,830,The grandfather was broken by the bowl.,Did the bowl break someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,831,The woman was lost by the diamond.,Did the diamond lose someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,832,The grandmother was cleaned by the oven.,Did the oven clean someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,833,The electrician was stolen by the hammer.,Did the hammer steal someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,834,The sister was closed by the window.,Did the window close someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,835,The grandson was sipped by the water.,Did the water sip someone? ,Yes,Insertion,2
+Expt,PassiveImplaus,836,The granddaughter was boarded by the train.,Did the granddaughter board something? ,No,Insertion,2
+Expt,PassiveImplaus,837,The aunt was purchased by the book.,Did the aunt purchase something? ,No,Insertion,2
+Expt,PassiveImplaus,838,The uncle was sailed by the boat.,Did the uncle sail something? ,No,Insertion,2
+Expt,PassiveImplaus,839,The wife was lit by the candle.,Did the wife light something? ,No,Insertion,2
+Expt,PassiveImplaus,840,The husband was written by the letter.,"Did the husband write something? 
+",No,Insertion,2
+Filler,Active1,901,The man held the woman.,Did the woman hold someone? ,No,Filler,0
+Filler,Active1,902,The airplane destroyed the missile.,Did the missile destroy something? ,No,Filler,0
+Filler,Active1,903,The father chased the son.,Did the son chase someone? ,No,Filler,0
+Filler,Active1,904,The nephew tickled the uncle.,Did the nephew tickle someone? ,Yes,Filler,0
+Filler,Active1,905,The woman nudged the man.,Did the woman nudge someone? ,Yes,Filler,0
+Filler,Active1,906,The daughter bit the son.,Did the daughter bite someone? ,Yes,Filler,0
+Filler,Active1,907,The husband called the wife.,Did the husband call someone? ,Yes,Filler,0
+Filler,Active1,908,The girl pushed the boy.,Did the girl push someone? ,Yes,Filler,0
+Filler,Active1,909,The wife ignored the husband.,Did the wife ignore someone? ,Yes,Filler,0
+Filler,Active1,910,The niece followed the aunt.,Did the aunt follow someone? ,No,Filler,0
+Filler,Active1,911,The professor criticized the TA.,Did the TA criticize someone? ,No,Filler,0
+Filler,Active1,912,The lawyer insulted the judge.,Did the judge insult someone? ,No,Filler,0
+Filler,Active2,913,The woman held the man.,Did the woman hold someone? ,Yes,Filler,0
+Filler,Active2,914,The missile destroyed the airplane.,Did the missile destroy something? ,Yes,Filler,0
+Filler,Active2,915,The son chased the father.,Did the son chase someone? ,Yes,Filler,0
+Filler,Active2,916,The uncle tickled the nephew.,Did the nephew tickle someone? ,No,Filler,0
+Filler,Active2,917,The man nudged the woman.,Did the woman nudge someone? ,No,Filler,0
+Filler,Active2,918,The son bit the daughter.,Did the daughter bite someone? ,No,Filler,0
+Filler,Active2,919,The wife called the husband.,Did the husband call someone? ,No,Filler,0
+Filler,Active2,920,The boy pushed the girl.,Did the girl push someone? ,No,Filler,0
+Filler,Active2,921,The husband ignored the wife.,Did the wife ignore someone? ,No,Filler,0
+Filler,Active2,922,The aunt followed the niece.,Did the aunt follow someone? ,Yes,Filler,0
+Filler,Active2,923,The TA criticized the professor.,Did the TA criticize someone? ,Yes,Filler,0
+Filler,Active2,924,The judge insulted the lawyer.,Did the judge insult someone? ,Yes,Filler,0
+Filler,Passive1,925,The woman was held by the man.,Did the woman hold someone? ,No,Filler,0
+Filler,Passive1,926,The missile was destroyed by the airplane.,Did the missile destroy something? ,No,Filler,0
+Filler,Passive1,927,The son was chased by the father.,Did the son chase someone? ,No,Filler,0
+Filler,Passive1,928,The uncle was tickled by the nephew.,Did the nephew tickle someone? ,Yes,Filler,0
+Filler,Passive1,929,The man was nudged by the woman.,Did the woman nudge someone? ,Yes,Filler,0
+Filler,Passive1,930,The son was bitten by the daughter.,Did the daughter bite someone? ,Yes,Filler,0
+Filler,Passive1,931,The wife was called by the husband.,Did the husband call someone? ,Yes,Filler,0
+Filler,Passive1,932,The boy was pushed by the girl.,Did the girl push someone? ,Yes,Filler,0
+Filler,Passive1,933,The husband was ignored by the wife.,Did the wife ignore someone? ,Yes,Filler,0
+Filler,Passive1,934,The aunt was followed by the niece.,Did the aunt follow someone? ,No,Filler,0
+Filler,Passive1,935,The TA was criticized by the professor.,Did the TA criticize someone? ,No,Filler,0
+Filler,Passive1,936,The judge was insulted by the lawyer.,Did the judge insult someone? ,No,Filler,0
+Filler,Passive2,937,The man was held by the woman.,Did the woman hold someone? ,Yes,Filler,0
+Filler,Passive2,938,The airplane was destroyed by the missile.,Did the missile destroy something? ,Yes,Filler,0
+Filler,Passive2,939,The father was chased by the son.,Did the son chase someone? ,Yes,Filler,0
+Filler,Passive2,940,The nephew was tickled by the uncle.,Did the nephew tickle someone? ,No,Filler,0
+Filler,Passive2,941,The woman was nudged by the man.,Did the woman nudge someone? ,No,Filler,0
+Filler,Passive2,942,The daughter was bitten by the son.,Did the daughter bite someone? ,No,Filler,0
+Filler,Passive2,943,The husband was called by the wife.,Did the husband call someone? ,No,Filler,0
+Filler,Passive2,944,The girl was pushed by the boy.,Did the girl push someone? ,No,Filler,0
+Filler,Passive2,945,The wife was ignored by the husband.,Did the wife ignore someone? ,No,Filler,0
+Filler,Passive2,946,The niece was followed by the aunt.,Did the aunt follow someone? ,Yes,Filler,0
+Filler,Passive2,947,The professor was criticized by the TA.,Did the TA criticize someone? ,Yes,Filler,0
+Filler,Passive2,948,The lawyer was insulted by the judge.,Did the judge insult someone? ,Yes,Filler,0
+Filler,Neutral,949,The professor conducted an inquiry into the status of the file.,Did the professor conduct someone? ,Yes,Filler,0
+Filler,Neutral,950,The commissioner wrote a report for the chairman.,Did the commissioner write someone? ,Yes,Filler,0
+Filler,Neutral,951,The terrorist assassinated the newsman in cold blood.,Did the terrorist kill someone? ,Yes,Filler,0
+Filler,Neutral,952,A legislator lied to the consultant about a new bill.,Did the legislator lie about someone? ,Yes,Filler,0
+Filler,Neutral,953,The toddler hugged a teddybear because he was scared.,Did the toddler hug someone? ,Yes,Filler,0
+Filler,Neutral,954,The spy monitored a baroness for several months.,Did the spy watch someone? ,Yes,Filler,0
+Filler,Neutral,955,The witch was hanged by an executioner promptly at dawn.,Did the executioner hang someone? ,Yes,Filler,0
+Filler,Neutral,956,The pianist met with a beautician to prepare for her recital.,Did the pianist meet with someone? ,Yes,Filler,0
+Filler,Neutral,957,A socialite was greeted by the butler with a plate of caviar.,Did the butler greet someone? ,Yes,Filler,0
+Filler,Neutral,958,The pirate stole the booty from an officer.,Did the pirate steal someone? ,Yes,Filler,0
+Filler,Neutral,959,The colonel was knighted by the queen because of his loyalty.,Did the queen knight someone? ,Yes,Filler,0
+Filler,Neutral,960,The spokesman toasted a muffin for the agent after the early morning appointment.,Did the spokesman do something for someone? ,Yes,Filler,0
+Filler,Neutral,961,The supplier described a scenario for the class after explaining basic concepts.,Did the supplier explain someone? ,Yes,Filler,0
+Filler,Neutral,962,A bystander was rescued by the fireman in the nick of time.,Did the fireman rescue someone? ,Yes,Filler,0
+Filler,Neutral,963,The defendant misled a juryman when she said that she worked for the government.,Was the juryman misled by someone? ,Yes,Filler,0
+Filler,Neutral,964,The translator found a car for the ambassador because he could not speak Lebanese.,Was a car found for someone? ,Yes,Filler,0
+Filler,Neutral,965,The acrobat respected the ballerina because she went to Juilliard.,Was the ballerina respected by someone? ,Yes,Filler,0
+Filler,Neutral,966,The principal commended a parent for her ability to motivate her child.,Was the parent commended by someone? ,Yes,Filler,0
+Filler,Neutral,967,The robot killed a scientist before escaping from the laboratory.,Did the robot escape from someone? ,Yes,Filler,0
+Filler,Neutral,968,The preacher irritated a parishioner because she was used to shorter sermons.,Was the parishioner irritated by someone? ,Yes,Filler,0
+Filler,Neutral,969,The presenter was criticized by a legislator because of his speech impediment.,Did the legislator criticize someone? ,Yes,Filler,0
+Filler,Neutral,970,An analyst angered the economist after he interrupted a phone conference five times.,Was the ecomist angered by someone? ,Yes,Filler,0
+Filler,Neutral,971,The advisee opened a file for the visitor with some trepidation.,Was the file opened by someone? ,Yes,Filler,0
+Filler,Neutral,972,The choreographer found a film starring the lead in the musical.,Was the film found by someone? ,Yes,Filler,0
+Filler,Neutral,973,The playwright selected the understudy because of his resemblance to the lead actor.,Did the understudy receive someone? ,No,Filler,0
+Filler,Neutral,974,The insurer paid the victim because his car had been destroyed.,Did the victim pay someone? ,No,Filler,0
+Filler,Neutral,975,The runner filled a bottle with cold tap water.,Did the runner receive someone? ,No,Filler,0
+Filler,Neutral,976,The sculptor brought a shell from the ocean floor.,Did the shell receive someone? ,No,Filler,0
+Filler,Neutral,977,The dealer shuffled the deck before distributing the cards.,Did the cards receive someone? ,No,Filler,0
+Filler,Neutral,978,The trainer filled a bag with ice for the injured client.,Did the trainer receive someone? ,No,Filler,0
+Filler,Neutral,979,The cameraman was paid to follow a bridesmaid down the aisle with his camera.,Did the cameraman volunteer to film someone? ,No,Filler,0
+Filler,Neutral,980,The rioter stapled the sign to a bulletin board in the corridor.,Did the rioter receive someone? ,No,Filler,0
+Filler,Neutral,981,The paramedic helped an invalid into the brick building,Did the paramedic receive someone? ,No,Filler,0
+Filler,Neutral,982,The trucker ordered a bartender to bring him a beer.,Did the bartender receive someone? ,No,Filler,0
+Filler,Neutral,983,The performer lifted the acrobat onto her shoulders gracefully.,Did the acrobat receive someone? ,No,Filler,0
+Filler,Neutral,984,The archivist found a document dating back to the Nixon administration.,Did the archivist receive someone? ,No,Filler,0
+Filler,Neutral,985,The intern begged a programmer to edit the program because it was due the next day.,Did the intern receive someone? ,No,Filler,0
+Filler,Neutral,986,The surgeon called for a nurse to assist him with the operation.,Did the nurse receive someone? ,No,Filler,0
+Filler,Neutral,987,The beekeeper selected a honeycomb carefully from a hive of swarming bees.,Did the beekeeper eat someone? ,No,Filler,0
+Filler,Neutral,988,The Vikings raided a village in search of the warrior.,Did the warrior receive someone? ,No,Filler,0
+Filler,Neutral,989,The jewelry-maker was commissioned by the millionaire.,Did the millionaire receive someone? ,No,Filler,0
+Filler,Neutral,990,The cheerleader was treated by a doctor who had been watching the game.,Did the cheerleader call someone? ,No,Filler,0
+Filler,Neutral,991,The alum was offended by the solicitor because he asked very personal questions.,Did the alum receive someone? ,No,Filler,0
+Filler,Neutral,992,The astronaut accepted the mission.,Did the astronaut receive someone? ,No,Filler,0
+Filler,Neutral,993,The assistant xeroxed a file for the editor after sorting some papers.,Did the assistant receive someone? ,No,Filler,0
+Filler,Neutral,994,The coach encouraged the team to score in the last quarter.,Did the coach receive someone? ,No,Filler,0
+Filler,Neutral,995,The butcher cleaned a knife before he sliced the ham.,Did the butcher receive someone? ,No,Filler,0
+Filler,Neutral,996,The sergeant assigned a locker to the private after the meeting.,Did the sergeant receive someone? ,No,Filler,0
